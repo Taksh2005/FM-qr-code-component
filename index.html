@@ -40,13 +40,12 @@
         background: white;
         height: max-content;
         width: max-content;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
         padding: 16px;
         border-radius: 20px;
         box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.1);
-      }
-      .container-image {
-        height: max-content;
-        width: max-content;
       }
       #QR {
         border-radius: 10px;
@@ -86,14 +85,12 @@
   </head>
   <body>
     <div class="container">
-      <div class="container-image">
-        <img
-          src="./images/image-qr-code.png"
-          alt="QR-code"
-          id="QR"
-          width="288px"
-        />
-      </div>
+      <img
+        src="./images/image-qr-code.png"
+        alt="QR-code"
+        id="QR"
+        width="288px"
+      />
       <div class="desc">
         <h1 class="headline">
           Improve your front-end skills by building projects
