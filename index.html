@@ -1,95 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | QR code component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    *{
-    box-sizing: border-box;
-}
-body{
-    background:hsl(212, 45%, 89%);
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Outfit";
-}
-.container{
-    background: white;
-    height: max-content;
-    width: max-content;
-    padding: 16px;
-    border-radius: 20px;
-}
-.container-image{
-    height: max-content;
-    width: max-content;
-}
-#QR{
-    border-radius: 10px;
-}
-.desc{
-    margin: 24px 0 40px 0;
-    width: 288px;
-    text-wrap: wrap;
-    text-align: center;
-    padding: 0 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-.headline{
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
-}
-.context{
-    margin: 0;
-    font-weight: 400;
-    font-size: 15px;
-    color:hsl(216, 15%, 48%);
-}
-.attribution { 
-    font-size: 0.6875rem; text-align: center;
-    position: absolute;
-    bottom: 5px;
-}
-.attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  <div class="container">
-    <div class="container-image">
-      <img src="./images/image-qr-code.png" alt="QR-code" id="QR" width="288px">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: hsl(212, 45%, 89%);
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Outfit";
+      }
+      .container {
+        background: white;
+        height: max-content;
+        width: max-content;
+        padding: 16px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.1);
+      }
+      .container-image {
+        height: max-content;
+        width: max-content;
+      }
+      #QR {
+        border-radius: 10px;
+      }
+      .desc {
+        margin: 24px 0;
+        width: 288px;
+        text-wrap: wrap;
+        text-align: center;
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .headline {
+        margin: 0;
+        font-size: 22px;
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+      }
+      .context {
+        margin: 0;
+        font-weight: 400;
+        font-size: 15px;
+        color: hsl(216, 15%, 48%);
+      }
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+        position: absolute;
+        bottom: 5px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-image">
+        <img
+          src="./images/image-qr-code.png"
+          alt="QR-code"
+          id="QR"
+          width="288px"
+        />
+      </div>
+      <div class="desc">
+        <h1 class="headline">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="context">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
     </div>
-    <div class="desc">
-      <h1 class="headline">
-        Improve your front-end skills by building projects
-      </h1>
-      <p class="context">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-      </p>
-    </div>
-  </div>
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Taksh Dalvadi</a>.
-  </footer>
-</body>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Taksh Dalvadi</a>.
+    </footer>
+  </body>
 </html>
