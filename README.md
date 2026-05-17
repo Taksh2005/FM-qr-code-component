@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Taksh2005/FM-qr-code-component)
+- Solution URL: [FM-qr-code-component](https://github.com/Taksh2005/FM-qr-code-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -33,7 +33,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Useful resources
 
-- [w3schools](https://www.example.com) - This helped me with CSS.
+- [w3schools](https://www.w3schools.com/) - This helped me with CSS.
 
 ## Author
 
